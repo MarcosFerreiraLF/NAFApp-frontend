@@ -38,7 +38,7 @@ const App = () => {
         {!iniciado && (
           <Picker
             selectedValue={selectedValue}
-            style={{ height: 50, width: 150 }}
+            style={{ fontWeight: 700, fontSize: 240, fontFamily: "Ubuntu" }}
             onValueChange={(itemValue, itemIndex) =>
               setSelectedValue(itemValue)
             }
